@@ -26,3 +26,6 @@ export default function Currencies(props) {
         </div>
     )
 };
+// We have created a static array - for more production ready apps, we will have connected to a database //
+// We will use map to loop over that array of currency, each coin in the currencies will grab name and symbol
+// Each time we're going to return a Link tag - then route to the dynamic symbol - once click, it will send you to the show page/price page of the symbol
